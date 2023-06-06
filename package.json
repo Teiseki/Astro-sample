@@ -25,6 +25,9 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": "npm run {任意のコマンド}"
+  },
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
